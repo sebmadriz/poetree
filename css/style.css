@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    font-family: "capitolina", serif;
+    font-weight: 600;
+    font-style: italic;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+   
+}
+
+p{
+    /* background-color: rgb(107, 214, 107); */
+    padding: 5px;
+    transform: scale(2, 1);
+}
+
+.tree{
+    display: grid;
+    place-items: center;
+}
