@@ -8,7 +8,7 @@ This project's origins are based on community. What does community mean to you? 
 
 ## Technical Overview
 
-This project uses a combination of HTML and CSS to create the changes in visuals.
+This project uses a combination of HTML and CSS to create the changes in visuals. Using the page is simple. You have to...(insert how to use page once project is complete and the nav is clear)
 
 ## Acknowledgement
 
