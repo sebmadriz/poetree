@@ -1,4 +1,4 @@
-## poetree: an animated tree poem
+## POETREE: An Animated Tree Poem
 
 Coding by Sebastian Madriz. Poem by Court Smith.
 
