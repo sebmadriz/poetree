@@ -1,6 +1,6 @@
 ## POETREE: An Animated Tree Poem
 
-Coding by Sebastian Madriz. Poem by Court Smith.
+Coding by Sebastian Madriz. Poem written by Court Smith.
 
 ## Project Overview
 
