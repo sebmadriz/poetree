@@ -13,3 +13,5 @@ This project uses a combination of HTML and CSS to create the changes in visuals
 ## Acknowledgement
 
 Poem by Court Smith: https://concrete-poems.blogspot.com/2011/12/spotted-owl.html
+
+Hover animation sate remaining: https://stackoverflow.com/questions/17100235/make-css-hover-state-remain-after-unhovering
