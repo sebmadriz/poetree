@@ -31,144 +31,30 @@ a{
     place-items: center;
 }
 
-#a-one {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 4s;
+.text {
+    color: #fff;
+    cursor: pointer;
+    animation-name: hover;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;      
 }
 
-#a-two {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 6s;
+.text:active, .text:focus, .text:hover {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
 }
 
-#a-two:hover {
-    
+@keyframes hover {
+    from {
+    opacity: .05;
+    }
+    to {
+    opacity: 1;
+    }
 }
 
-#a-three {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 8s;
-}
-
-#a-four {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 10s;
-}
-
-#a-five {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 12s;
-}
-
-#a-six {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 14s;
-}
-
-#a-seven {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 16s;
-}
-
-#a-eight {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 18s;
-}
-
-#a-nine {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 20s;
-}
-
-#a-ten {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 22s;
-}
-
-#a-eleven {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 24s;
-}
-
-#a-twelve {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 26s;
-}
-
-#a-thirteen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 28s;
-}
-
-#a-fourteen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 30s;
-}
-
-#a-fifteen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 32s;
-}
-
-#a-sixteen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 34s;
-}
-
-#a-seventeen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 38s;
-}
-
-#a-eighteen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 40s;
-}
-
-#a-nineteen {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 42s;
-}
-
-#a-twenty {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 44s;
-}
-
-#a-twentyone {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 46s;
-}
-
-#a-twentytwo {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 48s;
-}
-
-#a-twentythree {
-    color: #aa0f0f;
-    transition-property: color;
-    transition-duration: 50s;
+#a-thirteen, #a-fourteen, #a-fifteen, #a-sixteen, #a-seventeen, #a-eighteen, #a-nineteen, #a-twenty, #a-twentyone, #a-twentytwo, #a-twentythree {
+    color: #fff;
+    opacity: .25;
 }
