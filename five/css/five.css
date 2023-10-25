@@ -41,6 +41,10 @@ a{
     animation-play-state: paused;      
 }
 
+.textPlain {
+    color: #fff;
+}
+
 .text:active, .text:focus, .text:hover {
     animation-fill-mode: forwards;
     animation-play-state: running;

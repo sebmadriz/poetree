@@ -17,7 +17,7 @@ body {
     width: 100%;
     display: grid;
     place-items: center;
-    animation: transitionIn 3s;
+    animation: transitionIn .1s;
 
 }
 
@@ -39,6 +39,10 @@ a{
     animation-duration: 1s;
     animation-fill-mode: backwards;
     animation-play-state: paused;      
+}
+
+.textPlain {
+    color: #fff;
 }
 
 .text:active, .text:focus, .text:hover {
