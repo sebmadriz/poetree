@@ -8,7 +8,13 @@ This project's origins are based on community. What does community mean to you? 
 
 ## Technical Overview
 
-This project uses a combination of HTML and CSS to create the changes in visuals. Using the page is simple. You have to...(insert how to use page once project is complete and the nav is clear)
+This project uses a combination of HTML and CSS to create the changes in visuals.
+
+The font used was Capitolina. Pulled from Adobe Fonts.
+
+No java or images were used in this project. The only image in the img folder is a visual reference for the shape of the final page.
+
+Using the page is simple. To trigger changes to the text you have to hover your mouse over the lightest text on the page. To get to the next page you have to wait for any animations to finish and then click on the animated line of text to continue onto the next. This page uses a combination of animations and transitions to create different visual effects.
 
 ## Acknowledgement
 

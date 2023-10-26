@@ -18,8 +18,12 @@ body {
     overflow: hidden;
     display: grid;
     place-items: center;
-    animation: transitionIn 4s;
+    animation: transitionIn 3.5s;
 
+}
+
+p {
+    transform: scale(2.5, 2);
 }
 
 a{
@@ -42,7 +46,11 @@ a{
     animation-play-state: paused;      
 }
 
-.textPlain:visited {
+.textPlain {
+    color: #fff;
+}
+
+a .textPlain:visited {
     color: #fff;
 }
 
@@ -58,7 +66,7 @@ a{
 
 @keyframes hover {
     from {
-    opacity: .05;
+    opacity: .15;
     }
     to {
     opacity: 1;
