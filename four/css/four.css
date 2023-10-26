@@ -15,6 +15,7 @@ body {
     font-style: italic;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     display: grid;
     place-items: center;
     animation: transitionIn 3s;
@@ -35,7 +36,7 @@ a{
 .text {
     color: #fff;
     cursor: pointer;
-    animation-name: hover;
+    animation-name: hover, hovertwo;
     animation-duration: 1s;
     animation-fill-mode: backwards;
     animation-play-state: paused;      
@@ -61,13 +62,24 @@ a{
     }
     to {
     opacity: 1;
+    transform: skew(-40deg);
+    }
+}
+
+@keyframes hovertwo {
+    from {
+
+    }
+
+    to {
+        transform: scale(2.5);
     }
 }
 
 @keyframes transitionIn {
     from {
         opacity: 0;
-        transform: rotateX(-20deg);
+        transform: translateY(15px);
     }
 
     to {

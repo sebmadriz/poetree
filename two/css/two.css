@@ -15,6 +15,7 @@ body {
     font-style: italic;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     display: grid;
     place-items: center;
     animation: transitionIn 3s;
@@ -61,13 +62,14 @@ a{
     }
     to {
     opacity: 1;
+    scale: 1.5;
     }
 }
 
 @keyframes transitionIn {
     from {
         opacity: 0;
-        transform: rotateX(-20deg);
+        transform: translateY(14px);
     }
 
     to {

@@ -15,9 +15,10 @@ body {
     font-style: italic;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     display: grid;
     place-items: center;
-    animation: transitionIn .1s;
+    animation: transitionIn 3s;
 
 }
 
@@ -67,11 +68,10 @@ a{
 @keyframes transitionIn {
     from {
         opacity: 0;
-        transform: rotateX(-20deg);
+        transform: translateY(15px);
     }
 
     to {
         opacity: 1;
-        transform: rotateX(0);
     }
 }

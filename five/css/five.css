@@ -15,6 +15,7 @@ body {
     font-style: italic;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     display: grid;
     place-items: center;
     animation: transitionIn 3s;
@@ -35,10 +36,7 @@ a{
 .text {
     color: #fff;
     cursor: pointer;
-    animation-name: hover;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
-    animation-play-state: paused;      
+    animation: hover 2s backwards paused, hovertwo 4s backwards paused;
 }
 
 .textPlain {
@@ -64,10 +62,20 @@ a{
     }
 }
 
+@keyframes hovertwo {
+    from {
+
+    }
+
+    to {
+        transform: scale(2.5, 2) translateY(20px);
+    }
+}
+
 @keyframes transitionIn {
     from {
         opacity: 0;
-        transform: rotateX(-20deg);
+        transform: translateY(15px);
     }
 
     to {
